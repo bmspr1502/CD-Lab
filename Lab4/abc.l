@@ -1,0 +1,25 @@
+%option noyywrap
+%{
+	#include<stdio.h>
+	int flag=0;
+%}
+
+%%
+(abc) {
+	printf("ABC");
+	flag++;
+}
+. {
+	printf("%s", yytext);
+	}
+%%
+int main()
+{
+	yylex();
+	if(flag>=1){
+	printf("\n There has been %d instances of \'abc\' and they have been changed.\n", flag);
+	}else{
+	printf("\n No substring matches given description\n");
+	}
+	return 0;
+}

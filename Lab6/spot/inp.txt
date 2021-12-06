@@ -1,0 +1,9 @@
+if(expr == val1){
+    stat1;
+}
+else if(expr == val2){
+    stat2;
+}
+else{
+    statDef;
+}

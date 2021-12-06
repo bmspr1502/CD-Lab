@@ -1,0 +1,22 @@
+%option noyywrap
+%{
+	#include<stdio.h>
+	int count=0;
+%}
+
+%%
+[ \t\n]+ 
+.+
+[a-zA-Z]*[aeiouAEIOU][a-zA-Z]*[aeiouAEIOU][a-zA-Z]*$ {printf("%s : contains at least 2 vowels.\n",yytext);
+count++;}
+%%
+int main()
+{
+	yylex();
+	if(count)
+		printf("Match found\n");
+	else
+		printf("No string contains at least 2 vowels\n");
+
+	return 0;
+}

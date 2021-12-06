@@ -1,0 +1,9 @@
+#include <stdio.h>
+int multFunc(int a,int b) {
+	return (a * b);
+}
+int main()
+{
+    printf("%d", multFunc(5, 7));
+    return 0;
+}

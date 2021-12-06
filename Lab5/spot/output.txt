@@ -1,0 +1,13 @@
+{
+    while ( (c = input()) == '*' )
+    ;
+if ( c == '/' )
+break;  /* found the end */ (comment)
+}
+    while (c ! = eof)
+{   
+if (c = =1 )    
+    return “YES”;   /* Returns YES */ (comment)
+else
+    return “NO”;    /* Returns NO */ (comment)
+}

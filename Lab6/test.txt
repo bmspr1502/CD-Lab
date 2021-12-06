@@ -1,0 +1,11 @@
+switch(choice){
+    case 1:
+        printf("HI");
+        break;
+    case 2:
+        printf("Hello");
+        break;
+    default:
+        printf("Bye");
+        break;
+}

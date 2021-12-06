@@ -1,0 +1,7 @@
+if(a == 1){
+    statement1;
+}else if(b==2){
+    statement2;
+}else{
+    statement3;
+}

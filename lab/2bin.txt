@@ -1,0 +1,7 @@
+for (i = 0; i< (array_size -1); ++i)
+{
+    for (j = 0; j <array_size -1 -i; ++j )
+    {
+        if (i> j){
+            sum=sum+a[i][j];
+            }

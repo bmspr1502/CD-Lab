@@ -1,0 +1,11 @@
+switch(expr)
+{
+case val1: 	
+    stat1;
+	break;
+case val2: 	
+    stat2;
+	break;
+default:
+    statDef;
+}

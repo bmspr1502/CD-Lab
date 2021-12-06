@@ -1,0 +1,23 @@
+%option noyywrap
+%{
+	#include <stdio.h>
+	#include <ctype.h>
+	#include <string.h>
+	#define MAX 512
+%}
+
+key if|then|else|for|while|int|float|double|main|printf|scanf|define|for|return|#include|yylex
+alphanum [a-zA-Z0-9 ]
+%%
+{key} {
+	int i=0;
+	for(i=0; i<yyleng; i++)
+		printf("%c",toupper(yytext[i]));
+	}
+
+%%
+int main()
+{
+	yylex();
+	return 0;
+}

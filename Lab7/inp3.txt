@@ -1,0 +1,10 @@
+if( a == 1 )
+    if( b == 2 )
+        stat1;
+    else
+        stat2;
+else
+    if( s == 8 )
+        stat3;
+    else
+        stat4;

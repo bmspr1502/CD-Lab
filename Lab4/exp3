@@ -1,0 +1,5 @@
+def f(x):
+	if x >= 1:
+		return x * x
+	else:
+         	return xprint x
