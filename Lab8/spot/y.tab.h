@@ -1,0 +1,11 @@
+#define ID 257
+#define NUM 258
+#define IF 259
+#define ELSE 260
+#define LESSEREQUAL 261
+#define GREATEREQUAL 262
+#define EQUAL 263
+#define NOTEQUAL 264
+#define OR 265
+#define AND 266
+#define LINE 267
